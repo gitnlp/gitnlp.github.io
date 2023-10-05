@@ -247,7 +247,7 @@ RetNet a strong successor to Transformer for large language models.
                                 href=https://arxiv.org/abs/2307.02486>LongNet: Scaling Transformers to 1,000,000,000 Tokens</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2307.02486 class="color-fg-50">
-                               We introduce LongNet, a Transformer variant that can scale sequence length to more than 1 billion tokens, without sacrificing the performance on shorter sequences. Specifically, we propose dilated attention, which expands the attentive field exponentially as the distance grows.
+                               We introduce LongNet, a Transformer variant that can scale sequence length to more than 1 billion tokens, without sacrificing the performance on shorter sequences. Specifically, we propose dilated attention, which expands the attentive field exponentially as the distance grows. LongNet has significant advantages: 1) it has a linear computation complexity and a logarithm dependency between any two tokens in a sequence; 2) it can be served as a distributed trainer for extremely long sequences; 3) its dilated attention is a drop-in replacement for standard attention, which can be seamlessly integrated with the existing Transformer-based optimization. 
                                 <br>
                                 <time datetime="2023-07-06">July 6, 2023</time>
                             </a>

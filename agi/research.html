@@ -287,7 +287,7 @@
                                 href=https://arxiv.org/abs/2310.02992>Kosmos-G: Generating Images in Context with Multimodal Large Language Models</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2310.02992 class="color-fg-50">
-                                This paper presents KOSMOS-G, a model that leverages the advanced perception capabilities of Multimodal Large Language Models (MLLMs) to tackle the aforementioned challenge. Our approach aligns the output space of MLLM with CLIP using the textual modality as an anchor and performs compositional instruction tuning on curated data. KOSMOS-G demonstrates a unique capability of zero-shot multi-entity subject-driven generation. Notably, the score distillation instruction tuning requires no modifications to the image decoder. This allows for a seamless substitution of CLIP and effortless integration with a myriad of U-Net techniques ranging from fine-grained controls to personalized image decoder variants. We posit KOSMOS-G as an initial attempt towards the goal of “image as a foreign language in image generation.”
+                                <tag>ICLR'24 </tag>This paper presents KOSMOS-G, a model that leverages the advanced perception capabilities of Multimodal Large Language Models (MLLMs) to tackle the aforementioned challenge. Our approach aligns the output space of MLLM with CLIP using the textual modality as an anchor and performs compositional instruction tuning on curated data. KOSMOS-G demonstrates a unique capability of zero-shot multi-entity subject-driven generation. Notably, the score distillation instruction tuning requires no modifications to the image decoder. This allows for a seamless substitution of CLIP and effortless integration with a myriad of U-Net techniques ranging from fine-grained controls to personalized image decoder variants. We posit KOSMOS-G as an initial attempt towards the goal of “image as a foreign language in image generation.”
                                 <br>
                                 <time datetime="2023-09-20">Sep 20, 2023</time>
                             </a>
@@ -394,7 +394,7 @@ RetNet a strong successor to Transformer for large language models.
                                 href=https://arxiv.org/abs/2309.10400>PoSE: Efficient Context Window Extension of LLMs via Positional Skip-wise Training</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2309.10400 class="color-fg-50">
-                               We introduce Positional Skip-wisE (PoSE) training for efficient adaptation of large language models~(LLMs) to extremely long context windows. PoSE decouples train length from target context window size by simulating long inputs using a fixed context window with manipulated position indices during training. Concretely, we select several short chunks from a long input sequence, and introduce distinct skipping bias terms to modify the position indices of each chunk. These bias terms, along with the length of each chunk, are altered for each training example, allowing the model to adapt to all positions within the target context window without training on full length inputs. Experiments show that, compared with fine-tuning on the full length, PoSE greatly reduces memory and time overhead with minimal impact on performance. Leveraging this advantage, we have successfully extended the LLaMA model to 128k tokens. 
+                               <tag>ICLR'24 </tag>We introduce Positional Skip-wisE (PoSE) training for efficient adaptation of large language models~(LLMs) to extremely long context windows. PoSE decouples train length from target context window size by simulating long inputs using a fixed context window with manipulated position indices during training. Concretely, we select several short chunks from a long input sequence, and introduce distinct skipping bias terms to modify the position indices of each chunk. These bias terms, along with the length of each chunk, are altered for each training example, allowing the model to adapt to all positions within the target context window without training on full length inputs. Experiments show that, compared with fine-tuning on the full length, PoSE greatly reduces memory and time overhead with minimal impact on performance. Leveraging this advantage, we have successfully extended the LLaMA model to 128k tokens. 
                                 <br>
                                 <time datetime="2023-09-19">September 19, 2023</time>
                             </a>
@@ -412,10 +412,31 @@ RetNet a strong successor to Transformer for large language models.
                     <div class="post-card-full-hide color-fg-50 mb-1.5">2023</div>
                     <div class="mb-1.5">
                         <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
+                                href=https://openreview.net/forum?id=uWvKBCYh4S>MoLE: Mixture of LoRA Experts</a></h5>
+                        <div>
+                            <a href=https://openreview.net/forum?id=uWvKBCYh4S class="color-fg-50">
+                               <tag>ICLR'24 </tag>This paper introduces the Mixture of LoRA Experts (MoLE) approach, which harnesses hierarchical control and unfettered branch selection. The MoLE approach not only achieves superior LoRA fusion performance in comparison to direct arithmetic merging but also retains the crucial flexibility for combining LoRAs effectively. Extensive experimental evaluations conducted in both the Natural Language Processing (NLP) and Vision & Language (V&L) domains substantiate the efficacy of MoLE. 
+                                <br>
+                                <time datetime="2023-09-18">September 18, 2023</time>
+                            </a>
+                            <br>
+                            <tag>  </tag> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-card-full medium-xsmall-copy" data-year="2023">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="post-card-full-hide color-fg-50 mb-1.5">2023</div>
+                    <div class="mb-1.5">
+                        <h5 class="medium-xsmall-copy balance-text mb-1/12"><a
                                 href=https://arxiv.org/abs/2309.09530>Adapting Large Language Models via Reading Comprehension</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2309.09530 class="color-fg-50">
-                               We explore how continued pre-training on domain-specific corpora influences large language models, revealing that training on the raw corpora endows the model with domain knowledge, but drastically hurts its prompting ability for question answering. Taken inspiration from human learning via reading comprehension--practice after reading improves the ability to answer questions based on the learned knowledge--we propose a simple method for transforming raw corpora into reading comprehension texts. Each raw text is enriched with a series of tasks related to its content. Our method, highly scalable and applicable to any pre-training corpora, consistently enhances performance across various tasks in three different domains: biomedicine, finance, and law. Notably, our 7B language model achieves competitive performance with domain-specific models of much larger scales, such as BloombergGPT-50B. 
+                               <tag>ICLR'24 </tag>We explore how continued pre-training on domain-specific corpora influences large language models, revealing that training on the raw corpora endows the model with domain knowledge, but drastically hurts its prompting ability for question answering. Taken inspiration from human learning via reading comprehension--practice after reading improves the ability to answer questions based on the learned knowledge--we propose a simple method for transforming raw corpora into reading comprehension texts. Each raw text is enriched with a series of tasks related to its content. Our method, highly scalable and applicable to any pre-training corpora, consistently enhances performance across various tasks in three different domains: biomedicine, finance, and law. Notably, our 7B language model achieves competitive performance with domain-specific models of much larger scales, such as BloombergGPT-50B. 
                                 <br>
                                 <time datetime="2023-09-18">September 18, 2023</time>
                             </a>
@@ -478,7 +499,7 @@ RetNet a strong successor to Transformer for large language models.
                                 href=https://arxiv.org/abs/2307.06945>In-context Autoencoder for Context Compression in a Large Language Model</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2307.06945 class="color-fg-50">
-                               We propose the In-context Autoencoder (ICAE) for context compression in a large language model (LLM). Our experimental results demonstrate that the ICAE learned with our proposed pretraining and fine-tuning paradigm can effectively produce memory slots with 4× context compression, which can be well conditioned on by the target LLM to respond to various prompts. 
+                               <tag>ICLR'24 </tag>We propose the In-context Autoencoder (ICAE) for context compression in a large language model (LLM). Our experimental results demonstrate that the ICAE learned with our proposed pretraining and fine-tuning paradigm can effectively produce memory slots with 4× context compression, which can be well conditioned on by the target LLM to respond to various prompts. 
                                 <br>
                                 <time datetime="2023-07-13">July 13, 2023</time>
                             </a>
@@ -520,7 +541,7 @@ RetNet a strong successor to Transformer for large language models.
                                 href=https://arxiv.org/abs/2306.14824>Kosmos-2: Grounding Multimodal Large Language Models (MLLMs) to the World</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2306.14824 class="color-fg-50">
-                               We introduce KOSMOS-2, a Multimodal Large Language Model (MLLM), enabling new capabilities of perceiving object descriptions (e.g., bounding boxes) and grounding text to the visual world. In addition to existing capabilities of MLLMs (e.g., perceiving general modalities, following instructions, and performing in-context learning), KOSMOS-2 integrates the grounding capability into downstream applications.
+                               <tag>ICLR'24 </tag>We introduce KOSMOS-2, a Multimodal Large Language Model (MLLM), enabling new capabilities of perceiving object descriptions (e.g., bounding boxes) and grounding text to the visual world. In addition to existing capabilities of MLLMs (e.g., perceiving general modalities, following instructions, and performing in-context learning), KOSMOS-2 integrates the grounding capability into downstream applications.
                                 <br>
                                 <time datetime="2023-06-26">June 26, 2023</time>
                             </a>
@@ -541,7 +562,7 @@ RetNet a strong successor to Transformer for large language models.
                                 href=https://arxiv.org/abs/2306.08543>Knowledge Distillation of Large Language Models</a></h5>
                         <div>
                             <a href=https://arxiv.org/abs/2306.08543 class="color-fg-50">
-                               We propose MiniLLM that distills smaller language models from generative larger language models. We first replace the forward Kullback-Leibler divergence (KLD) objective in the standard KD approaches with reverse KLD, which is more suitable for KD on generative language models, to prevent the student model from overestimating the low-probability regions of the teacher distribution.
+                               <tag>ICLR'24 </tag>We propose MiniLLM that distills smaller language models from generative larger language models. We first replace the forward Kullback-Leibler divergence (KLD) objective in the standard KD approaches with reverse KLD, which is more suitable for KD on generative language models, to prevent the student model from overestimating the low-probability regions of the teacher distribution.
                                 <br>
                                 <time datetime="2023-06-14">June 14, 2023</time>
                             </a>
